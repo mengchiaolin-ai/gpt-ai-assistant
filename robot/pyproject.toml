@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "duck-robot"
+version = "0.1.0"
+description = "DIY bipedal duck robot runtime (Open Duck Mini v2 compatible)"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+# 跑 AI 步行模型
+policy = ["onnxruntime>=1.16"]
+# MuJoCo 模擬
+sim = ["mujoco>=3.1", "onnxruntime>=1.16"]
+# Raspberry Pi 上的真實硬體
+hw = ["pyserial>=3.5", "adafruit-circuitpython-bno055>=5.4", "adafruit-blinka>=8.0", "onnxruntime>=1.16"]
+gamepad = ["pygame>=2.5"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+duck = "duck_robot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["duck_robot*"]
+
+[tool.setuptools.package-data]
+duck_robot = ["animations/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

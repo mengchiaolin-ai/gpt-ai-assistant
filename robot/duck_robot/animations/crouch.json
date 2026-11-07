@@ -1,0 +1,10 @@
+{
+  "name": "crouch",
+  "description": "蹲下再站起來",
+  "keyframes": [
+    {"t": 0.0, "pose": {}},
+    {"t": 0.8, "pose": {"crouch": 0.3, "neck_pitch": -0.2}},
+    {"t": 1.8, "pose": {"crouch": 0.3, "neck_pitch": -0.2}},
+    {"t": 2.6, "pose": {}}
+  ]
+}

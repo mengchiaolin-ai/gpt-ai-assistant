@@ -1,0 +1,12 @@
+{
+  "name": "shake",
+  "description": "搖頭（不要～）",
+  "keyframes": [
+    {"t": 0.0, "pose": {}},
+    {"t": 0.25, "pose": {"head_yaw": 0.5}},
+    {"t": 0.55, "pose": {"head_yaw": -0.5}},
+    {"t": 0.85, "pose": {"head_yaw": 0.5}},
+    {"t": 1.15, "pose": {"head_yaw": -0.5}},
+    {"t": 1.4, "pose": {}}
+  ]
+}

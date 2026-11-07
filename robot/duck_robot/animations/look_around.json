@@ -1,0 +1,12 @@
+{
+  "name": "look_around",
+  "description": "好奇地東張西望",
+  "keyframes": [
+    {"t": 0.0, "pose": {}},
+    {"t": 0.6, "pose": {"head_yaw": 0.9, "neck_pitch": 0.25, "head_roll": 0.15}},
+    {"t": 1.4, "pose": {"head_yaw": 0.9, "neck_pitch": 0.25, "head_roll": 0.15}},
+    {"t": 2.2, "pose": {"head_yaw": -0.9, "neck_pitch": 0.25, "head_roll": -0.15}},
+    {"t": 3.0, "pose": {"head_yaw": -0.9, "neck_pitch": 0.25, "head_roll": -0.15}},
+    {"t": 3.6, "pose": {}}
+  ]
+}

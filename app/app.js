@@ -7,6 +7,7 @@ import {
   deployHandler,
   docHandler,
   drawHandler,
+  duckHandler,
   forgetHandler,
   enquireHandler,
   reportHandler,
@@ -23,7 +24,8 @@ import Event from './models/event.js';
  * @returns {Promise<Context>}
  */
 const handleContext = async (context) => (
-  activateHandler(context)
+  duckHandler(context)
+  || activateHandler(context)
   || commandHandler(context)
   || continueHandler(context)
   || deactivateHandler(context)

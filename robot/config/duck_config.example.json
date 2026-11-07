@@ -1,0 +1,24 @@
+{
+  "_comment": "複製成 ~/duck_config.json 再修改。joint_offsets 用 `duck calibrate` 自動產生。",
+  "serial_port": "/dev/ttyACM0",
+  "imu_upside_down": false,
+  "leg_kp": 30,
+  "head_kp": 8,
+  "fall_tilt_deg": 55,
+  "joint_offsets": {
+    "left_hip_yaw": 0.0,
+    "left_hip_roll": 0.0,
+    "left_hip_pitch": 0.0,
+    "left_knee": 0.0,
+    "left_ankle": 0.0,
+    "neck_pitch": 0.0,
+    "head_pitch": 0.0,
+    "head_yaw": 0.0,
+    "head_roll": 0.0,
+    "right_hip_yaw": 0.0,
+    "right_hip_roll": 0.0,
+    "right_hip_pitch": 0.0,
+    "right_knee": 0.0,
+    "right_ankle": 0.0
+  }
+}

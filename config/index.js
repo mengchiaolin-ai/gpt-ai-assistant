@@ -45,6 +45,9 @@ const config = Object.freeze({
   SERPAPI_API_KEY: env.SERPAPI_API_KEY || null,
   SERPAPI_LOCATION: env.SERPAPI_LOCATION || 'Taiwan',
   SERPAPI_LANG: env.SERPAPI_LANG || 'lang_zh-TW',
+  DUCK_API_URL: env.DUCK_API_URL || null,
+  DUCK_API_TOKEN: env.DUCK_API_TOKEN || null,
+  DUCK_TIMEOUT: Number(env.DUCK_TIMEOUT) || 5000,
 });
 
 export default config;

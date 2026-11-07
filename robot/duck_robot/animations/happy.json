@@ -1,0 +1,13 @@
+{
+  "name": "happy",
+  "description": "開心彈跳 + 歪頭",
+  "keyframes": [
+    {"t": 0.0, "pose": {}},
+    {"t": 0.25, "pose": {"crouch": 0.15, "head_roll": 0.25, "head_pitch": -0.2}},
+    {"t": 0.5, "pose": {"head_roll": 0.0}},
+    {"t": 0.75, "pose": {"crouch": 0.15, "head_roll": -0.25, "head_pitch": -0.2}},
+    {"t": 1.0, "pose": {}},
+    {"t": 1.25, "pose": {"crouch": 0.15, "head_roll": 0.25, "head_pitch": -0.2}},
+    {"t": 1.5, "pose": {}}
+  ]
+}
